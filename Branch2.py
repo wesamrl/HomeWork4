@@ -1,3 +1,16 @@
+print(" You can Choose the process : ", "\n",
+      "1- +"
+      , "\n",
+      "2- -"
+      , "\n",
+      "3- *"
+      , "\n",
+      "4- /"
+      , "\n",
+      "5- ^"
+      "\n",
+      "6- %"
+      )
 def checkValueIsNumber(inputStr: str):
     if inputStr != None and not inputStr.isspace() and inputStr.count(".") <= 1:
         inputStr = inputStr.replace(".", "1")
